@@ -21,6 +21,9 @@ For older change log history see the [historic changelog](HISTORIC_CHANGELOG.md)
     ([issue #667](https://github.com/dsccommunity/ActiveDirectoryDsc/issues/667))
 
 
+- ADOrganizationalUnit
+  - Added DomainController Parameter.
+
 ### Added
 
 - ADGroup
