@@ -19,6 +19,9 @@ For older change log history see the [historic changelog](HISTORIC_CHANGELOG.md)
   - Refactored Module.
   - Refactored Unit and Integration Tests.
 
+- ADOrganizationalUnit
+  - Added DomainController Parameter.
+
 ### Added
 
 - ADManagedServiceAccount
