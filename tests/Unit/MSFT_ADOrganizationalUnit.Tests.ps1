@@ -169,7 +169,8 @@ try
                     Assert-MockCalled -CommandName Assert-Module `
                         -ParameterFilter { $ModuleName -eq 'ActiveDirectory' }
                     Assert-MockCalled -CommandName Get-ADOrganizationalUnit `
-                        -ParameterFilter { $SearchBase -eq $getTargetResourceParameters.Path } `
+                        -ParameterFilter { $SearchBase -eq $getTargetResourceParameters.Path `
+                            -and $null -ne $Credential} `
                         -Exactly -Times 1
                 }
             }
@@ -187,7 +188,8 @@ try
                     Assert-MockCalled -CommandName Assert-Module `
                         -ParameterFilter { $ModuleName -eq 'ActiveDirectory' }
                     Assert-MockCalled -CommandName Get-ADOrganizationalUnit `
-                        -ParameterFilter { $SearchBase -eq $getTargetResourceParameters.Path } `
+                        -ParameterFilter { $SearchBase -eq $getTargetResourceParameters.Path `
+                            -and $null -ne $Credential} `
                         -Exactly -Times 1
                 }
             }
