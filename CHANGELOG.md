@@ -7,6 +7,9 @@ For older change log history see the [historic changelog](HISTORIC_CHANGELOG.md)
 
 ## [Unreleased]
 
+- ADOrganizationalUnit
+  - Added DomainController Parameter.
+
 ## [6.2.0] - 2022-05-01
 
 ### Changed
@@ -18,9 +21,6 @@ For older change log history see the [historic changelog](HISTORIC_CHANGELOG.md)
 - ADGroup
   - Refactored Module.
   - Refactored Unit and Integration Tests.
-
-- ADOrganizationalUnit
-  - Added DomainController Parameter.
 
 ### Added
 
